@@ -53,7 +53,7 @@ request.onload = function () {
         columnHolder.setAttribute("class", "col-md-4")
 
         const columnPositioner = document.createElement("div")
-        columnPositioner.setAttribute("class", "card mb-4 box-shadow")
+        columnPositioner.setAttribute("class", "card mb-4 box-shadow warning")
 
         
         const movieBody = document.createElement("div")

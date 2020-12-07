@@ -11,13 +11,13 @@ body {
     width: 100%;
     .parentDiv{
         height: 100%;
-        background: linear-gradient(rgba(3, 1, 1, 0.9), rgba(0, 0, 0, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+        background: linear-gradient(rgba(3, 0, 0, 0.9), rgba(53, 52, 52, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
         //   linear-gradient(#004445, #021c1e);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
         background-attachment: fixed;
-        color: rgb(255, 249, 249);
+        color: rgb(236, 234, 234);
 
         .cover-container {
             max-width: 42em;
@@ -38,7 +38,7 @@ body {
 }
 
 .cardBody {
-    height: 300px;
+    height: 320px;
 }
 .card:nth-child(1n){
     background: rgba(243, 8, 8, 0.05);
@@ -48,6 +48,11 @@ body {
     width: 50rem;
     background-color: #fff;
     color: #333;
+
+    
+    #learngoal{
+      margin-top: 40px;
+    }
 }
 
   /*
@@ -161,5 +166,19 @@ body {
         width: 80%;
         background-color: #fff;
         color: #333;
+
+        #learngoal{
+          margin-top: 40px;
+        }
+    }
+    .parentDiv{
+      height: 100%;
+      background: linear-gradient(rgba(3, 0, 0, 0.9), rgba(53, 52, 52, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+      //   linear-gradient(#004445, #021c1e);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      background-attachment: fixed;
+      color: #ccc;
     }
   }

@@ -11,13 +11,13 @@ body {
 html .parentDiv,
 body .parentDiv {
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 1, 1, 0.9)), to(rgba(0, 0, 0, 0.5))), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
-  background: linear-gradient(rgba(3, 1, 1, 0.9), rgba(0, 0, 0, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 0, 0, 0.9)), to(rgba(53, 52, 52, 0.5))), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+  background: linear-gradient(rgba(3, 0, 0, 0.9), rgba(53, 52, 52, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
-  color: #fff9f9;
+  color: #eceaea;
 }
 
 html .parentDiv .cover-container,
@@ -39,7 +39,7 @@ body .parentDiv header .inner {
 }
 
 .cardBody {
-  height: 300px;
+  height: 320px;
 }
 
 .card:nth-child(1n) {
@@ -50,6 +50,10 @@ body .parentDiv header .inner {
   width: 50rem;
   background-color: #fff;
   color: #333;
+}
+
+#learnMore #learngoal {
+  margin-top: 40px;
 }
 
 /*
@@ -166,6 +170,19 @@ footer p {
     width: 80%;
     background-color: #fff;
     color: #333;
+  }
+  #learnMore #learngoal {
+    margin-top: 40px;
+  }
+  .parentDiv {
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 0, 0, 0.9)), to(rgba(53, 52, 52, 0.5))), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+    background: linear-gradient(rgba(3, 0, 0, 0.9), rgba(53, 52, 52, 0.5)), url(../img/taken-3-movie-banner-8k-ob-2048x1152.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    color: #ccc;
   }
 }
 /*# sourceMappingURL=style.css.map */
