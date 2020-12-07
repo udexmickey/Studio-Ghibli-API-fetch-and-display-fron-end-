@@ -1,9 +1,5 @@
 const app = document.getElementById("root");
 
-// const container = document.createElement("div")
-// container.setAttribute("class", "containerDiv")
-
-
 const parentContainer = document.createElement("div")
 parentContainer.setAttribute("class", "album py-5 bg-light")
 
@@ -12,7 +8,6 @@ container.setAttribute("class", "container")
 
 const row = document.createElement("div")
 row.setAttribute("class", "row")
-
 
 const logo = document.createElement('img')
 logo.src = 'download.png'
@@ -105,25 +100,4 @@ request.onload = function () {
   }
 }
 
-request.send()
-
-
-
-// <div class="album py-5 bg-light" id="display">
-{/* <div class="container"> */}
-//   <div class="row">
-//     <div class="col-md-4 columnHolder">
-    //   <div class="card mb-4 box-shadow">            
-        // <div class="card-body cardBody ">
-          {/* <h5 class="card-title title">title</h5> */}
-          {/* <p class="card-text description">some value text</p> */}
-        //   <div class="d-flex justify-content-between align-items-center movieOfficial">
-            {/* <small class="text-muted text-right producer">P name</small> */}
-            {/* <small class="text-muted text-left director"> D Name</small> */}
-        //   </div>
-        // </div>
-    //   </div>
-//     </div>
-//   </div>
-// </div>
-// </div>
+request.send();
