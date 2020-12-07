@@ -1,0 +1,47 @@
+.content .container .container_inner {
+    padding: 30px;
+}
+@font-face {
+	font-family: 'Gotham Book';
+	src: url('fonts/Gotham-Book.eot');
+	src: local('☺'), url('fonts/Gotham-Book.woff') format('woff'), url('fonts/Gotham-Book.ttf') format('truetype'), url('fonts/Gotham-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham BookItalic';
+	src: url('fonts/Gotham-BookItalic.eot');
+	src: local('☺'), url('fonts/Gotham-BookItalic.woff') format('woff'), url('fonts/Gotham-BookItalic.ttf') format('truetype'), url('fonts/Gotham-BookItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Medium';
+	src: url('fonts/Gotham-Medium.eot');
+	src: local('☺'), url('fonts/Gotham-Medium.woff') format('woff'), url('fonts/Gotham-Medium.ttf') format('truetype'), url('fonts/Gotham-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.woocommerce form.checkout .col2-set .form-row-wide {
+  float: left;
+}
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    padding-bottom: 30px;
+}
+h2.woocommerce-loop-product__title {
+    padding: 10px 15px;
+}
+span.price {
+    padding: 5px 15px;
+}
+.add_to_cart_button.ajax_add_to_cart{
+  margin: 5px 15px;
+}
+ul.products li.product .price {
+    text-align: lfet;
+}
+div.wpcf7-response-output {
+    color: #3f3f3f;
+}
